@@ -1,0 +1,4 @@
+ void	write (String  s)
+ 캐릭터 라인을 기입합니다.
+ void	write (String  s, int off, int len)
+ 캐릭터 라인의 일부를 기입합니다.
