@@ -53,7 +53,7 @@ width:150px;
 }
 #p_container{
 position:absolute;
-left:calc(40% - 160px);
+margin-left: 400px;
 }
 
 </style>
@@ -63,7 +63,8 @@ left:calc(40% - 160px);
 <header>
 <jsp:include page="header_notlogin.jsp"></jsp:include>
 </header>
-<footer>
+<div style="width: 1250px;">
+
 <div id="p_container">
 <table class="top">
 <h3>주문자 정보</h3>
@@ -128,8 +129,9 @@ left:calc(40% - 160px);
     </table>
     </table>
     </div>    
+    </div>
 <!-- footer -->
-
+<footer>
 <jsp:include page="footer.jsp"></jsp:include>
 </footer>	
 </body>

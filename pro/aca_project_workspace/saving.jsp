@@ -37,6 +37,7 @@ margin : auto;
 <header>
 <jsp:include page="header_notlogin.jsp"></jsp:include>
 </header>
+<div style="width: 1250px;">
 <section>
 <aside id="aside">
 <h1>∞Ì∞¥ºæ≈Õ</h1>
@@ -93,6 +94,7 @@ margin : auto;
 </details>
 </article>
 </section>
+</div>
 <!-- footer -->
 <footer>
 <jsp:include page="footer.jsp"></jsp:include>

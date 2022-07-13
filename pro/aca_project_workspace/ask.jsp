@@ -24,9 +24,7 @@ margin-right:50px;
 select{
 width: 200px;
 }
-#div1{
-width: 50%; height: 50%; text-align: left;
-}
+
 #but{
 margin: auto;
 
@@ -40,10 +38,12 @@ margin-left:500px;
 </style>
 </head>
 <body>
+<div style="width: 1250px;">
 <!-- header -->
 <header>
 <jsp:include page="header_notlogin.jsp"></jsp:include>
 </header>
+
 <section>
 <aside id="aside">
 <h1>고객센터</h1>
@@ -82,7 +82,7 @@ margin-left:500px;
 </section>
 
 <br>
-<div id="div1">
+<div >
 분류 <select>
 <option> 제품문의</option>
 <option>제품문의2</option>
@@ -104,5 +104,6 @@ margin-left:500px;
 <footer>
 <jsp:include page="footer.jsp"></jsp:include>
 </footer>	
+</div>
 </body>
 </html>

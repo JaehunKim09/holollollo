@@ -33,6 +33,7 @@ margin : auto;
 </style>
 </head>
 <body>
+<div style="width: 1250px;">
 <!-- header -->
 <header>
 <jsp:include page="header_notlogin.jsp"></jsp:include>
@@ -96,6 +97,7 @@ margin : auto;
 <!-- footer -->
 <footer>
 <jsp:include page="footer.jsp"></jsp:include>
-</footer>	
+</footer>
+</div>	
 </body>
 </html>
