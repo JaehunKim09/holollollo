@@ -6,23 +6,22 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <style>
-#p_container_footer{
-position:absolute;
-top:100%;
-width:100%;
-height:100px;
-background:black;
+#p_container_footer {
+	width: 100%;
+	height: 100px; /* footer의 높이 */
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    background:black;
 }
 #group1{
-position:absolute;
 top:10px;
-left:100px;
+padding-left:100px;
 color:white;
 width:465px;
 text-align:left;
 }
 #group2{
-position:absolute;
 top:10px;
 left:800px;
 color:white;
